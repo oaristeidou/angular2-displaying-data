@@ -8,9 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title: string;
   member: string;
+  members: string[];
 
   constructor(){
     this.title = 'Interhyp Developers';
     this.member = 'Oddy';
+    this.members = ['Odyssefs', 'Maria', 'Mareike', 'Timo', 'Mohamed'];
   }
 }
